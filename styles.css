@@ -1,0 +1,169 @@
+body 
+	{
+		font-family: "Open Sans", sans-serif;
+		text-align: center;
+		background: black;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+section
+	{
+		display: block;
+		background: white;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 15px;
+		padding-bottom: 60px;
+		padding-left: 5px;
+		padding right: 5px;
+	}
+
+
+h1 
+ 	{ 
+ 		color: black; 
+ 		font-size: 32pt; 
+ 		font-style: bold; 
+ 		font-family: norwester, Arial Black, sans-serif; 
+	
+ 	} 
+
+h2
+	{
+		color: black; 
+ 		font-size: 24pt; 
+ 		font-style: italic; 
+ 		font-family: norwester, Arial Black, sans-serif; 	
+	}
+
+h3
+	{
+		color: black; 
+ 		font-size: 20pt; 
+ 		font-style: initial; 
+ 		font-family: norwester, Arial Black, sans-serif;
+
+	}
+
+h4
+		
+	{
+		color: black; 
+ 		font-size: 20pt; 
+ 		font-style: initial; 
+ 		font-family: norwester, Arial Black, sans-serif;
+		padding: 2px;
+		margin: 2px;
+		border: 2px;
+
+	}
+p
+	{
+		color: black; 
+ 		font-size: 14pt;
+	}
+
+a:link 
+	{
+		text-decoration: none;
+		font-size: 14pt;
+	}
+
+a:visited 
+	{
+  		 text-decoration: none;
+  		 font-size: 14pt;
+  	}
+
+img
+	{
+		max-width: 100%;
+  		height: auto;
+	}
+
+
+.grid-container 
+	
+	{
+		
+  		display: grid;
+ 		padding: 10px;
+  		align-content: center;
+	}
+
+.grid-item 
+	{
+  		text-align: center;
+	}
+
+
+
+@media only screen and (max-width: 900px) 
+
+	{
+		.column
+			{
+				column-gap: 10px;  
+				width: 100%;		
+			}
+
+		section
+			{
+				margin-left: 2%;
+				margin-right: 2%;
+			}
+
+		h1 
+ 			{ 
+ 				font-size: 24pt;
+ 			} 
+
+		h2
+			{
+ 				font-size: 20pt; 	
+			}
+
+		h3
+			{
+ 				font-size: 18pt; 
+ 				
+			}
+
+		h4
+		
+			{
+ 				font-size: 18pt;
+			}
+
+		p
+			{
+				color: black; 
+ 				font-size: 10pt;
+			}
+
+		a:link 
+			{
+				text-decoration: none;
+				font-size: 10pt;
+			}
+
+		a:visited 
+			{
+  				 text-decoration: none;
+  				 font-size: 10pt;
+			}
+
+	
+	}
+		
+
+		
+		
+
+
+
+
+
