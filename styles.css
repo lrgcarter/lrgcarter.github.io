@@ -3,7 +3,7 @@
 		font-family: 'Norwester Regular';
 		font-style: normal;
 		font-weight: normal;
-		src: local('Norwester Regular'), url('norwester.otf') format('otf');
+		src: local('Norwester Regular'), url('norwester.woff') format('woff');
 	}
 
 body 
