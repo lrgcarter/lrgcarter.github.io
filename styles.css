@@ -1,3 +1,11 @@
+@font-face 
+	{
+		font-family: 'Norwester Regular';
+		font-style: normal;
+		font-weight: normal;
+		src: local('Norwester Regular'), url('norwester.otf') format('otf');
+	}
+
 body 
 	{
 		font-family: "Open Sans", sans-serif;
