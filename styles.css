@@ -97,28 +97,6 @@ img
   		display: grid;
   		align-content: center;
 	}
-
-@media only screen and (max-width: 1000px) 
-
-	{
-		section
-			{
-				margin-left: 2%;
-				margin-right: 2%;
-			}
-
-		a:link 
-			{
-				text-decoration: none;
-				font-size: 10pt;
-			}
-
-		a:visited 
-			{
-  				 text-decoration: none;
-  				 font-size: 10pt;
-			}
-	}
 		
 
 		
