@@ -104,21 +104,9 @@ img
   		align-content: center;
 	}
 
-.grid-item 
-	{
-  		text-align: center;
-	}
-
-
-
-@media only screen and (max-width: 900px) 
+@media only screen and (max-width: 1000px) 
 
 	{
-		.column
-			{
-				column-gap: 10px;  
-				width: 100%;		
-			}
 
 		section
 			{
