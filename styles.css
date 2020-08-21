@@ -1,9 +1,7 @@
 @font-face 
 	{
-		font-family: 'Norwester Regular';
-		font-style: normal, bold;
-		font-weight: normal;
-		src: local('Norwester Regular'), url('lrgcarter.github.io/norwester.woff'), format('woff');
+		font-family: Norwester;
+		src: url('lrgcarter.github.io/norwester.woff'), format('woff');
 	}
 
 body 
