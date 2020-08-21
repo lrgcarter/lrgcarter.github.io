@@ -1,12 +1,7 @@
-@import url(//db.onlinewebfonts.com/c/7bf226306214181d5e917ed5bda2301c?family=Norwester);
+@import url(lrgcarter.github.io/norwester.woff);
 
 @font-face {font-family: "Norwester"; 
-	src: url("//db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.eot"); 
-	src: url("//db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.eot?#iefix") format("embedded-opentype"), 
-		url("//db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.woff2") format("woff2"), 
-		url("//db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.woff") format("woff"), 
-		url("//db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.ttf") format("truetype"), 
-		url("//db.onlinewebfonts.com/t/7bf226306214181d5e917ed5bda2301c.svg#Norwester") format("svg"); }
+	src: url("lrgcarter.github.io/norwester.woff") format("woff");}
 body 
 	{
 		font-family: "Open Sans", sans-serif;
