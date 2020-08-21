@@ -35,7 +35,7 @@ h1
  		color: black; 
  		font-size: 32pt; 
  		font-style: bold; 
- 		font-family: norwester, Arial Black, sans-serif; 
+ 		font-family: norwester, "Arial Black", sans-serif; 
 	
  	} 
 
@@ -44,7 +44,7 @@ h2
 		color: black; 
  		font-size: 24pt; 
  		font-style: italic; 
- 		font-family: norwester, Arial Black, sans-serif; 	
+ 		font-family: norwester, "Arial Black", sans-serif; 	
 	}
 
 h3
@@ -52,7 +52,7 @@ h3
 		color: black; 
  		font-size: 20pt; 
  		font-style: initial; 
- 		font-family: norwester, Arial Black, sans-serif;
+ 		font-family: norwester, "Arial Black", sans-serif;
 
 	}
 
@@ -62,7 +62,7 @@ h4
 		color: black; 
  		font-size: 20pt; 
  		font-style: initial; 
- 		font-family: norwester, Arial Black, sans-serif;
+ 		font-family: norwester, "Arial Black", sans-serif;
 		padding: 2px;
 		margin: 2px;
 		border: 2px;
