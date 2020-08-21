@@ -36,7 +36,6 @@ h1
  		font-size: 32pt; 
  		font-style: bold; 
  		font-family: norwester, "Arial Black", sans-serif; 
-	
  	} 
 
 h2
@@ -53,11 +52,9 @@ h3
  		font-size: 20pt; 
  		font-style: initial; 
  		font-family: norwester, "Arial Black", sans-serif;
-
 	}
 
-h4
-		
+h4	
 	{
 		color: black; 
  		font-size: 20pt; 
@@ -66,8 +63,8 @@ h4
 		padding: 2px;
 		margin: 2px;
 		border: 2px;
-
 	}
+
 p
 	{
 		color: black; 
@@ -96,18 +93,14 @@ img
 
 
 .grid-container 
-	
 	{
-		
   		display: grid;
- 		padding: 10px;
   		align-content: center;
 	}
 
 @media only screen and (max-width: 1000px) 
 
 	{
-
 		section
 			{
 				margin-left: 2%;
@@ -131,7 +124,6 @@ img
 			}
 
 		h4
-		
 			{
  				font-size: 18pt;
 			}
@@ -153,8 +145,6 @@ img
   				 text-decoration: none;
   				 font-size: 10pt;
 			}
-
-	
 	}
 		
 
