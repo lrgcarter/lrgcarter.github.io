@@ -23,6 +23,7 @@ section
 		padding-bottom: 60px;
 		padding-left: 5px;
 		padding-right: 5px;
+		min-height: 100vh;
 	}
 
 
