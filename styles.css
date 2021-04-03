@@ -3,10 +3,10 @@
 @font-face 	{
 			font-family: "Norwester"; 
 			src: 	url("lrgcarter.github.io/norwester.woff") format("woff"),
-				url("lrgcarter/fonts/norwester.woff") format("woff"),
-				url("lrgcarter/fonts/norwester.eot") format("eot"),
-				url("lrgcarter/fonts/norwester.ttf") format("ttf"),
-				url("lrgcarter/fonts/norwester.svg") format("svg");				;
+				url("../lrgcarter/fonts/norwester.woff") format("woff"),
+				url("../lrgcarter/fonts/norwester.eot") format("eot"),
+				url("../lrgcarter/fonts/norwester.ttf") format("ttf"),
+				url("../lrgcarter/fonts/norwester.svg") format("svg");				;
 		}
 @import url("lrgcarter.github.io/teko-medium.ttf");
 
