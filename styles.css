@@ -6,9 +6,12 @@
 		}
 @import url("lrgcarter.github.io/teko-medium.ttf");
 
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
+
 @font-face 	{
 			font-family: "Teko"; 
-			src: 	url("lrgcarter.github.io/teko-medium.ttf") format("ttf");
+			src: 	url("lrgcarter.github.io/teko-medium.ttf") format("ttf"),
+				url("https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap");
 		}
 
 body 
