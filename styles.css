@@ -1,11 +1,8 @@
 @import url('lrgcarter.github.io/norwester.woff');
 
-@import url('lrgcarter.github.io/norwester.otf');
-
 @font-face 	{
 			font-family: "Norwester"; 
-			src: 	url("lrgcarter.github.io/norwester.woff") format("woff"),
-				url("lrgcarter.github.io/norwester.otf") format("otf");
+			src: 	url("lrgcarter.github.io/norwester.woff") format("woff");
 		}
 
 
