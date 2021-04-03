@@ -4,7 +4,12 @@
 			font-family: "Norwester"; 
 			src: 	url("lrgcarter.github.io/norwester.woff") format("woff");
 		}
+@import url("lrgcarter.github.io/teko-medium.ttf");
 
+@font-face 	{
+			font-family: "Teko"; 
+			src: 	url("lrgcarter.github.io/teko-medium.ttf") format("ttf");
+		}
 
 body 
 	{
@@ -36,7 +41,7 @@ h1
  		color: black; 
  		font-size: 32pt; 
  		font-style: bold; 
- 		font-family: "Norwester", "Arial Black", sans-serif; 
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 
  	} 
 
 h2
@@ -44,7 +49,7 @@ h2
 		color: black; 
  		font-size: 24pt; 
  		font-style: italic; 
- 		font-family: "Norwester", "Arial Black", sans-serif; 	
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 	
 	}
 
 h3
@@ -52,7 +57,7 @@ h3
 		color: black; 
  		font-size: 20pt; 
  		font-style: initial; 
- 		font-family: "Norwester", "Arial Black", sans-serif;
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 	}
 
 h4	
@@ -60,7 +65,7 @@ h4
 		color: black; 
  		font-size: 20pt; 
  		font-style: initial; 
- 		font-family: "Norwester", "Arial Black", sans-serif;
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 		padding: 2px;
 		margin: 2px;
 		border: 2px;
