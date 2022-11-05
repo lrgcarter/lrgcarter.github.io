@@ -1,8 +1,8 @@
 @import url("lrgcarter.github.io/norwester.woff"),
 
 @font-face 	{
-			font-family: "Norwester"; 
-			src: 	url("lrgcarter.github.io/norwester.woff") format("woff");
+			font-family: 'Norwester'; 
+			src: 	url('lrgcarter.github.io/norwester.woff') format('woff');
 		}
 
 
@@ -36,7 +36,7 @@ h1
  		color: black; 
  		font-size: 32pt; 
  		font-style: bold; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 
+ 		font-family: 'Norwester', "Teko", "Arial Black", sans-serif; 
  	} 
 
 h2
@@ -44,7 +44,7 @@ h2
 		color: black; 
  		font-size: 24pt; 
  		font-style: italic; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 	
+ 		font-family: 'Norwester', "Teko", "Arial Black", sans-serif; 	
 	}
 
 h3
