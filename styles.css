@@ -1,12 +1,12 @@
 @font-face 	{
-			font-family: 'Norwester'; 
-			src: 	url('lrgcarter.github.io/norwester.woff');
+			font-family: "Norwester"; 
+			src: 	url("lrgcarter.github.io/norwester.woff");
 		}
 
 
 body 
 	{
-		font-family: 'Open Sans', sans-serif;
+		font-family: "Open Sans", sans-serif;
 		text-align: center;
 		background: black;
 		margin-top: 0px;
@@ -34,7 +34,7 @@ h1
  		color: black; 
  		font-size: 32pt; 
  		font-style: bold; 
- 		font-family: 'Norwester', 'Teko', 'Arial Black', sans-serif; 
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 
  	} 
 
 h2
@@ -42,7 +42,7 @@ h2
 		color: black; 
  		font-size: 24pt; 
  		font-style: italic; 
- 		font-family: 'Norwester', 'Teko', 'Arial Black', sans-serif; 	
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 	
 	}
 
 h3
@@ -50,7 +50,7 @@ h3
 		color: black; 
  		font-size: 20pt; 
  		font-style: initial; 
- 		font-family: 'Norwester', 'Teko', 'Arial Black', sans-serif;
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 	}
 
 h4	
@@ -58,7 +58,7 @@ h4
 		color: black; 
  		font-size: 20pt; 
  		font-style: initial; 
- 		font-family: 'Norwester', 'Teko', 'Arial Black', sans-serif;
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 		padding: 2px;
 		margin: 2px;
 		border: 2px;
