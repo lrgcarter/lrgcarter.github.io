@@ -118,6 +118,19 @@ img
   		display: grid;
   		align-content: center;
 	}
+
+
+.btn 	{
+  		border: none;
+ 		background-color: inherit;
+  		padding: 14px 28px;
+  		display: inline-block;
+		place-self: center;
+	}
+
+.btn:hover {background: transparent;}
+.filler {color: transparent;}
+.text {color: black;}
 		
 
 @media only screen and (max-width: 900px) 
@@ -151,6 +164,18 @@ img
 			{
  				font-size: 18pt;
 			}
+		
+		h5	
+			{
+				font-size: 12pt; 
+		
+			}
+		
+		h6	
+			{
+				font-size: 12pt; 
+		
+			}
 
 		p
 			{
@@ -170,6 +195,12 @@ img
   				 font-size: 10pt;
 			}
 
+		.btn 	{
+  		
+  				padding: 14px 10px;
+  
+			}
+		
 	
 	}
 		
