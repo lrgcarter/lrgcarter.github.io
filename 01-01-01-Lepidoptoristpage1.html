@@ -19,6 +19,24 @@
 		<meta name="twitter:image" content="http://lrgcarter.github.io/twitterindexpreviewimage.jpg" />
 
 		<link rel="stylesheet" type="text/css" href="styles.css">
+	
+	<style>
+		.grid-container {
+ 			display: grid;
+  			grid-template-columns: auto auto auto auto auto;
+ 			gap: 20px;
+  			padding: 10px;
+		}
+
+		.grid-container > div {
+    			background-color: rgba(255, 255, 255, 0.8);
+  			text-align: center;
+  			padding: 20px 0;
+  			font-size: 15px;
+		}
+
+</style>
+	
   
 </head>
 
@@ -41,6 +59,14 @@
     		</a> 
     
     <h3>The Lepidopterist</h3>
+		
+		<div class="grid-container">
+  			<div>First<br>Page</div>
+ 			<div>Previous<br>Page</div>
+  			<div>Page<br>1</div>  
+  			<div>Next<br>Page</div>
+  			<div>Last<br>Page</div>  
+		</div>
 		
 		
 		<img src="01-01-01-Lepidoptoristpage1.jpg" 
