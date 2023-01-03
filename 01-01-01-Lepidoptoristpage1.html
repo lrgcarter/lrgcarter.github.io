@@ -22,24 +22,19 @@
 	
 	<style>
 		
-		.grid-container 
-				{
- 					display: grid;
-					grid-template-columns: 10% 10% 10% 10% 10%;
-					align-content: center; 
- 					font-family: "Norwester", "Teko", "Arial Black", sans-serif;
- 					place-self: center;
-					margin-left: 10%;
-					margin-right: 10%;
-				}
-		.grid-item 
-				{
- 					background-color: transparent;
-  					padding: 10px;
-  					font-size: 18px;
-  					text-align: center;
-				}
+		.btn {
+  			border: none;
+  			background-color: inherit;
+  			padding: 14px 28px;
+  			font-size: 18px;
+  			display: inline-block;
+			font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+			place-self: center;
+			}
 
+		.btn:hover {background: transparent;}
+		.filler {color: transparent;}
+		.text {color: black;}
 		
 
 </style>
@@ -67,13 +62,13 @@
     
   		<h3>The Lepidopterist</h3>
 		
-		<div class="grid-container">
-  			<div class="item1"></div>
- 			<div class="item2"></div>
-  			<div class="item3">Page<br>1</div>  
-  			<div class="item4"><a href="01-01-02-Lepidoptoristpage2.html">Next<br>Page</a></div>
-  			<div class="item5"><a href="01-01-04-Lepidoptoristpage4.html">Last<br>Page</a></div>  
-		</div>  
+			<button class="btn filler">Fill<br>Text</button>
+			<button class="btn filler">Fill<br>Text</button>
+			<button class="btn text">Page<br>1</button>
+			<button class="btn text"><a href="01-01-02-Lepidoptoristpage2.html">Next<br>Page</a></button>
+			<button class="btn text"><a href="01-01-04-Lepidoptoristpage4.html">Last<br>Page</button>
+		
+	 
 		
 		<img src="01-01-01-Lepidoptoristpage1.jpg" 
 		alt=" Page 1.
