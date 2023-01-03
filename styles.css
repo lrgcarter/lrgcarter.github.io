@@ -64,6 +64,28 @@ h4
 		border: 2px;
 	}
 
+h5	
+	{
+		color: black; 
+ 		font-size: 14pt; 
+ 		font-style: initial; 
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+		padding: 2px;
+		margin: 2px;
+		border: 2px;
+	}
+
+h6	
+	{
+		color: transparent; 
+ 		font-size: 14pt; 
+ 		font-style: initial; 
+ 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+		padding: 2px;
+		margin: 2px;
+		border: 2px;
+	}
+
 p
 	{
 		color: black; 
