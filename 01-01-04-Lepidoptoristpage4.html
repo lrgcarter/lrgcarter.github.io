@@ -21,15 +21,19 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	
 	<style>
-			.grid-container 
-				{
- 					grid-template-columns: 10% 10% 10% 10% 10%;
-					align-content: center;
-					font-size: 18pt;  
- 					font-family: "Norwester", "Teko", "Arial Black", sans-serif;
-					place-self: center;
- 	
-				}
+		.btn {
+  			border: none;
+  			background-color: inherit;
+  			padding: 14px 28px;
+  			font-size: 18px;
+  			display: inline-block;
+			font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+			place-self: center;
+		}
+
+		.btn:hover {background: transparent;}
+		.filler {color: transparent;}
+		.text {color: black;}
 
 </style>
 	
@@ -56,13 +60,13 @@
     
     <h3>The Lepidopterist</h3>
 		
-		<div class="grid-container">
-  			<div class="item1"><a href="01-01-01-Lepidoptoristpage1.html">First<br>Page</a></div>
- 		  	<div class="item2"><a href="01-01-03-Lepidoptoristpage3.html">Previous<br>Page</a></div>
-  			<div class="item3">Page<br>4</div>  
-  			<div class="item4"></div>
-  			<div class="item5"></div>  
-		</div>
+			
+  			<button class="btn text"><a href="01-01-01-Lepidoptoristpage1.html">First<br>Page</a></button>
+			<button class="btn text"><a href="01-01-03-Lepidoptoristpage3.html">Prev<br>Page</a></button>
+  			<button class="btn text">Page<br>4</button>
+  			<button class="btn filler">Fill<br>Text</button>
+			<button class="btn filler">Fill<br>Text</button>
+	
 		
 		
 		<img src="01-01-04-Lepidoptoristpage4.jpg" 
@@ -93,13 +97,11 @@
 		>
 				
 		
-		<div class="grid-container">
-  			<div class="item1"><a href="01-01-01-Lepidoptoristpage1.html">First<br>Page</a></div>
- 		  	<div class="item2"><a href="01-01-03-Lepidoptoristpage3.html">Previous<br>Page</a></div>
-  			<div class="item3">Page<br>4</div>  
-  			<div class="item4"></div>
-  			<div class="item5"></div>  
-		</div>
+			<button class="btn text"><a href="01-01-01-Lepidoptoristpage1.html">Next<br>Page</a></button>
+			<button class="btn text"><a href="01-01-03-Lepidoptoristpage3.html">Last<br>Page</button>
+  			<button class="btn text">Page<br>4</button>
+  			<button class="btn filler">Fill<br>Text</button>
+			<button class="btn filler">Fill<br>Text</button>
 
 		
  		<a href="#top">
