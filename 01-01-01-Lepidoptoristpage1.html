@@ -21,25 +21,24 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	
 	<style>
+		
 		.grid-container {
- 			display: grid;
-  			grid-template-columns: 10% 10% 10% 10% 10%;
- 			gap: 20px;
-  			padding-left: 25%;
- 			padding-right: 25%;
-			color: rgba(211, 211, 211);
-			font-size: 18pt; 
+  			display: grid;
+ 			grid-template-columns: auto auto auto auto auto;
+			gap: 10px;
+  			padding: 10px;
+			font-size: 18pt;
  			font-style: bold; 
  			font-family: "Norwester", "Teko", "Arial Black", sans-serif;
-			a:link {text-decoration: none;};
-			a:visited {text-decoration: none;};
 		}
 
 		.grid-container > div {
-    			background-color: transparent;
-  			text-align: center;
-  			padding: 20px 0;
-  			font-size: 15px;
+		text-align: center;
+  		padding: 20px 0;
+		}
+
+		.item6 {
+  		grid-column: 1 / 6;
 		}
 		
 
@@ -69,14 +68,14 @@
   		<h3>The Lepidopterist</h3>
 		
 		<div class="grid-container">
-  			<div></div>
- 			<div></div>
-  			<div>Page<br>1</div>  
-  			<div><a href="01-01-02-Lepidoptoristpage2.html">Next<br>Page</a></div>
-  			<div><a href="01-01-04-Lepidoptoristpage4.html">Last<br>Page</a></div>  
-		</div>
+  			<div class="item1"></div>
+ 			<div class="item2"></div>
+  			<div class="item3">Page<br>1</div>  
+  			<div class="item4"><a href="01-01-02-Lepidoptoristpage2.html">Next<br>Page</a></div>
+  			<div class="item5"><a href="01-01-04-Lepidoptoristpage4.html">Last<br>Page</a></div>  
 		
 		
+		<div class="item6">
 		<img src="01-01-01-Lepidoptoristpage1.jpg" 
 		alt=" Page 1.
                       Panel 1.
@@ -100,16 +99,16 @@
                       "
 		     width="960"
 		>
-				
-		<div class="grid-container">
-  			<div></div>
- 			<div></div>
-  			<div>Page<br>1</div>  
-  			<div><a href="01-01-02-Lepidoptoristpage2.html">Next<br>Page</a></div>
-  			<div><a href="01-01-04-Lepidoptoristpage4.html">Last<br>Page</a></div>  
 		</div>
+				
 		
-		
+  			<div class="item7"></div>
+ 			<div class="item8"></div>
+  			<div class="item9">Page<br>1</div>  
+  			<div class="item10"><a href="01-01-02-Lepidoptoristpage2.html">Next<br>Page</a></div>
+  			<div class="item11"><a href="01-01-04-Lepidoptoristpage4.html">Last<br>Page</a></div>  
+		</div>
+			
  		<a href="#top">
 
 			<h4>Back to top</h4>
@@ -119,7 +118,8 @@
   		</a>
     
   			<a href="01-00-comic-art-index.html">
-
+		
+				
 			<h4>Back to Comics</h4>
 
     		</a> 
