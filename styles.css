@@ -140,6 +140,27 @@ img
   		align-content: center;
 	}
 
+.button 
+	{
+
+		border: none;
+  		color: black;
+  		padding: 10px 50px;
+  		text-align: center;
+ 		font-family: "Norwester"; 
+  		font-size: 18px;
+		transition-duration: 0.1s;
+  		cursor: pointer;
+  		background-color: white; 
+ 
+	}
+
+.button:hover 
+	
+	{
+  		background-color: black;
+  		color: white;
+	}
 
 
 @media only screen and (max-width: 900px) 
