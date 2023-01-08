@@ -106,6 +106,27 @@ a:visited
   		 font-size: 14pt;
   	}
 
+a.class2:link 
+	{
+  		color:  #9100ff;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+
+a.class2:hover 
+	{
+  		color: #ff00ec;
+  		background-color: transparent;
+  		text-decoration: underline;
+	}
+			
+ a.class2:visited 
+  	{
+  		color:  #ff006b;
+  		background-color: transparent;
+  		text-decoration: none;
+	}
+
 img
 	{
 		max-width: 100%;
