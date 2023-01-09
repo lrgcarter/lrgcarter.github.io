@@ -13,6 +13,21 @@ body
 		margin-bottom: 0px;
 	}
 
+.mydiv
+	{
+		display: block;
+		background: white;
+		margin-left: 10%;
+		margin-right: 10%;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		padding-top: 10%;
+		padding-bottom: 10%;
+		padding-left: 5%;
+		padding-right: 5%;
+		min-height: 100vh;
+	}
+
 section
 	{
 		display: block;
