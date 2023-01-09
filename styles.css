@@ -13,6 +13,8 @@ body
 			margin-bottom: 0px;
 		}
 
+
+
 .mydiv
 		{
 			display: block;
@@ -43,19 +45,22 @@ section
 		min-height: 100vh;
 	}
 
-#page-container 
+page-container 
 		{
  			position: relative;
   			min-height: 100vh;
 		}
 
-#content-wrap
+
+
+
+content-wrap
 		{
  			text-align: center;
   			padding-bottom: 0.5rem;    /* Footer height */
 		}
 
-#footer 
+footer 
 		{
 			position: absolute;
   			bottom: 0px;
