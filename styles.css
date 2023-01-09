@@ -43,6 +43,20 @@ section
 		min-height: 100vh;
 	}
 
+#content-wrap
+	{
+ 		text-align: center;
+  		padding-bottom: 0.5rem;    /* Footer height */
+	}
+
+#footer 
+	{
+ 	 	position: absolute;
+  		bottom: 0;
+  		text-align: center;
+  		height: 0.5rem;            /* Footer height */
+	}
+
 
 h1 
  	{ 
