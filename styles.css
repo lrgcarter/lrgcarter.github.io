@@ -170,7 +170,7 @@ img
   		align-content: center;
 	}
 
-.button 
+ #topbutton 
 	{
 
 		border: none;
@@ -185,8 +185,8 @@ img
  
 	}
 
-.button:hover 
-	
+
+#topbutton:hover 
 	{
   		background-color: black;
   		color: white;
