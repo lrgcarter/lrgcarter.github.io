@@ -43,10 +43,16 @@ section
 		min-height: 100vh;
 	}
 
+#page-container 
+	{
+ 		position: relative;
+  		min-height: 100vh;
+	}
+
 #content-wrap
 	{
  		text-align: center;
-  		padding-bottom: 0.5rem;    /* Footer height */
+  		padding-bottom: 2.5rem;    /* Footer height */
 	}
 
 #footer 
@@ -55,7 +61,8 @@ section
   		bottom: 0;
   		text-align: center;
   		padding-top: 15px;
-		height: 0.5rem;            /* Footer height */
+		width: 100%;
+		height: 2.5rem;            /* Footer height */
 	}
 
 
