@@ -9,10 +9,27 @@ body
 			font-family: "Open Sans", sans-serif;
 			text-align: center;
 			background: black;
-			margin-top: 0px;
-			margin-bottom: 0px;
+			margin: 0px;
+			min-height: 100vh;
+			position:relative; 
 		}
 
+body::after 	{
+  			content: '';
+  			display: block;
+  			height: 50px; /* Set same as footer's height */
+		}
+
+footer 
+		{
+  			position: absolute;
+ 			bottom: 0;
+  			width: 100%;
+			text-align: center;
+  			padding-top: 15px;
+  			height: 50px;
+			text-align: center;
+		}
 
 
 .mydiv
@@ -45,29 +62,7 @@ section
 		min-height: 100vh;
 	}
 
-page-container 
-		{
- 			position: relative;
-  			min-height: 100vh;
-		}
 
-
-
-
-content-wrap
-		{
- 			text-align: center;
-  			padding-bottom: 0.5rem;    /* Footer height */
-		}
-
-footer 
-		{
-			position: absolute;
-  			bottom: 0px;
-  			text-align: center;
-  			padding-top: 15px;
-			height: 0.5rem;            /* Footer height */
-		}
 
 
 h1 
