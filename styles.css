@@ -176,27 +176,7 @@ img
   		align-content: center;
 	}
 
- #topbutton 
-	{
 
-		border: none;
-  		color: black;
-  		padding: 10px 50px;
-  		text-align: center;
- 		font-family: "Norwester"; 
-  		font-size: 18px;
-		transition-duration: 0.1s;
-  		cursor: pointer;
-  		background-color: white; 
- 
-	}
-
-
-#topbutton:hover 
-	{
-  		background-color: black;
-  		color: white;
-	}
 
 
 @media only screen and (max-width: 900px) 
