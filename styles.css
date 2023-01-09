@@ -58,7 +58,7 @@ section
 #footer 
 		{
 			position: absolute;
-  			bottom: 0;
+  			bottom: 0px;
   			text-align: center;
   			padding-top: 15px;
 			height: 0.5rem;            /* Footer height */
