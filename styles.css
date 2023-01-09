@@ -51,10 +51,11 @@ section
 
 #footer 
 	{
- 	 	position: absolute;
+		position: absolute;
   		bottom: 0;
   		text-align: center;
-  		height: 0.5rem;            /* Footer height */
+  		padding-top: 15px;
+		height: 0.5rem;            /* Footer height */
 	}
 
 
