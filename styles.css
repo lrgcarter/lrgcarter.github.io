@@ -45,7 +45,8 @@ section
 		{
 			display: block;
 			background: inherit;
-			margin: 10px;
+			margin-top: 15px;
+			margin-bottom: 10px;
 			padding: 0px;
 		}
 
@@ -54,7 +55,7 @@ figure
   			display: block;
 			border: none;
   			width: auto;
-  			margin: 10px;
+  			margin-top: 10px;
 		}
 
 figcaption 
