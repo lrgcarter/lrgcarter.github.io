@@ -29,6 +29,18 @@ body
 			min-height: 100vh;
 		}
 
+.footer 
+		{
+  			position: relative;
+  			left: 0;
+   			bottom: 0;
+   			top: 25px;
+   			width: 100%;
+   			background-color: inherit;
+   			color: inherit;
+   			text-align: center;
+		}
+
 section
 	{
 		display: block;
