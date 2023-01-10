@@ -10,17 +10,8 @@ body
 			text-align: center;
 			background: black;
 			margin: 0px;
-			min-height: 100vh;
 		}
 
-
-footer 
-		{
- 			bottom: 0;
-			text-align: center;
-  			padding-top: 15px;
-  			height: 50px;
-		}
 
 
 .mydiv
