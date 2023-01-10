@@ -42,21 +42,26 @@ body
 		}
 
 section
-	{
-		display: block;
-		background: white;
-		margin-left: 10%;
-		margin-right: 10%;
-		margin-top: 0px;
-		margin-bottom: 0px;
-		padding-top: 10px;
-		padding-bottom: 10px;
-		padding-left: 5px;
-		padding-right: 5px;
-		min-height: 100vh;
-	}
+		{
+			display: block;
+			background: inherit;
+			margin: 10px;
+			padding: 0px;
+		}
 
+figure 
+		{
+  			border: none;
+  			width: auto;
+  			margin: 5px;
+		}
 
+figcaption 
+		{
+  			background-color: inherit;
+ 			padding: 2px;
+  			text-align: center;
+		}
 
 
 h1 
