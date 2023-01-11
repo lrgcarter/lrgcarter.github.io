@@ -127,7 +127,7 @@ a:visited
   	}
 
 a.linkclass1:link 									/*This is the format for normal links*/
-	{										/*I've given these a class so they doesn't become class 0*/								
+	{										/*IThese get a class so they don't become class 0*/								
   		color:  #9100ff;							/*That would bug me*/
   		background-color: transparent;		
   		text-decoration: none;
