@@ -31,8 +31,6 @@ body 											/*This is the base layer of the screen*/
 footer 											/*This makes the footer happen*/
 		{
   			position: relative;
-  			left: 10%;
-   			right: 10%;
    			top: 50px;
    			background-color: inherit;
    			color: inherit;
