@@ -212,9 +212,15 @@ a.linkclass2
 			{
   				margin: 10px;
 			}
+		
+		a.linkclass1:link 							
+			{			
+				font-size: 12pt;
+			}
+		
 		a.linkclass2
 			{
-				font-size: 18px;
+				font-size: 18pt;
 			}	
 	
 	}
