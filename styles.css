@@ -8,7 +8,7 @@ body 											/*This is the base layer of the screen*/
 		{
 			text-align: center;
 			background: black;						/*It's all black, so goth!*/
-			margin: 0px;							/*It goes right up to the edge of the screen*/
+			margin: 0;							/*It goes right up to the edge of the screen*/
 		}
 
 
@@ -19,8 +19,8 @@ body 											/*This is the base layer of the screen*/
 			background: white;
 			margin-left: 10%;						/*Left and right margins let the black body shoow through*/
 			margin-right: 10%;
-			margin-top: 0px;						/*No top or bottom margin makes white go to edge of screen*/
-			margin-bottom: 0px;
+			margin-top: 0;							/*No top or bottom margin makes white go to edge of screen*/
+			margin-bottom: 0;
 			padding-top: 5%;						/*Padding stops the stripe contents buttting up*/
 			padding-bottom: 1%;						/*gainst the margins or edge of screen.*/
 			padding-left: 5%;
@@ -114,18 +114,6 @@ p.pclass2										/*This formats words in Norwester that are't headings*/
 		margin: 2px;
 	}
 
-a:link 
-	{
-		text-decoration: none;
-		font-size: 14pt;
-	}
-
-a:visited 
-	{
-  		 text-decoration: none;
-  		 font-size: 14pt;
-  	}
-
 a.linkclass1:link 									/*This is the format for normal links*/
 	{										/*IThese get a class so they don't become class 0*/								
   		color:  #9100ff;							/*That would bug me*/
@@ -184,28 +172,26 @@ a.linkclass1:hover
 			}
 
 		h4
-		
 			{
  				font-size: 18pt;
 			}
 		
 
-		p
+		p.class1
 			{
-				color: black; 
- 				font-size: 10pt;
+ 				font-size: 12pt;
 			}
-
-		a:link 
-			{
-				text-decoration: none;
-				font-size: 10pt;
+	
+		
+		img											
+			{									
+				max-width: 80%;						
+  				height: auto;
 			}
-
-		a:visited 
+		
+		figure 											
 			{
-  				 text-decoration: none;
-  				 font-size: 10pt;
+  				margin: 10px;
 			}
 		
 	
