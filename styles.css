@@ -32,10 +32,9 @@ body
 .footer 
 		{
   			position: relative;
-  			left: 0;
-   			bottom: 0;
+  			left: 10%;
+   			bottom: 10%;
    			top: 50px;
-   			width: 100%;
    			background-color: inherit;
    			color: inherit;
    			text-align: center;
@@ -54,8 +53,7 @@ figure
   			display: block;
 			border: none;
   			width: auto;
-  			margin-top: 15px;
-			margin-bottom: 10px;
+  			margin: 15px;
 		}
 
 figcaption 
@@ -131,6 +129,15 @@ p
 		padding-right: 5px;
 	}
 
+p.pclass2	
+	{
+   		color: black;
+    		font-size: 18px;
+		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+		padding: 2px;
+		margin: 2px;
+	}
+
 a:link 
 	{
 		text-decoration: none;
@@ -143,21 +150,21 @@ a:visited
   		 font-size: 14pt;
   	}
 
-a.class2:link 
+a.linkclass1:link 
 	{
   		color:  #9100ff;
   		background-color: transparent;
   		text-decoration: none;
 	}
 
-a.class2:hover 
+a.linkclass1:hover 
 	{
   		color: #ff00ec;
   		background-color: transparent;
   		text-decoration: underline;
 	}
 			
- a.class2:visited 
+ a.linkclass1:visited 
   	{
   		color:  #ff006b;
   		background-color: transparent;
