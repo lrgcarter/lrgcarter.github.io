@@ -30,7 +30,7 @@ body 											/*This is the base layer of the screen*/
 
 footer 											/*This makes the footer happen*/
 		{
-  			position: relative;
+  			padding-top:  25px;
    			background-color: inherit;
    			color: inherit;
    			text-align: center;
