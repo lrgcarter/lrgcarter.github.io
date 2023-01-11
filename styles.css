@@ -31,6 +31,7 @@ body 											/*This is the base layer of the screen*/
 footer 											/*This makes the footer happen*/
 		{
   			position: relative;
+			width: 100%;
    			top: 50px;
    			background-color: inherit;
    			color: inherit;
@@ -58,6 +59,9 @@ figcaption 										/*Use this to give images captions*/
   			background-color: inherit;
  			padding: 2px;
   			text-align: center;
+    			font-size: 20px;
+			font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+			margin: 2px;
 		}
 
 img											/*Use this to put images into a figure nest*/
@@ -113,8 +117,8 @@ p.pclass2										/*This formats words in Norwester that are't headings*/
 	}
 
 a.linkclass1:link 									/*This is the format for normal links*/
-	{										/*These get a class so they're not class 0*/								
-  		color:  #9100ff;							/*That would bug me*/
+	{										/*These get a class so they're not class 0*/
+		color:  #9100ff;							/*That would bug me*/
   		background-color: transparent;		
   		text-decoration: none;
 	}
@@ -179,7 +183,11 @@ a.linkclass1:hover
 			{
  				font-size: 12pt;
 			}
-	
+		
+		figcaption 	
+			{
+				font-size: 12pt;
+			}
 		
 		img											
 			{									
