@@ -21,14 +21,14 @@ body 											/*This is the base layer of the screen*/
 			margin-right: 10%;
 			margin-top: 0px;						/*No top or bottom margin makes white go to edge of screen*/
 			margin-bottom: 0px;
-			padding-top: 5%;						/*Padding stops the stripe contents buttting up against the margins or edge of screen.*/
-			padding-bottom: 1%;
+			padding-top: 5%;						/*Padding stops the stripe contents buttting up*/
+			padding-bottom: 1%;						/*gainst the margins or edge of screen.*/
 			padding-left: 5%;
 			padding-right: 5%;
 			min-height: 100vh;						/*This makes the stripe the Height of the Viewport, hence VH*/
 		}
 
-.footer 									
+footer 											/*This makes the footer happen*/
 		{
   			position: relative;
   			left: 10%;
@@ -39,7 +39,7 @@ body 											/*This is the base layer of the screen*/
    			text-align: center;
 		}
 
-section
+section											/*connects things if there isn't a better term availible*/
 		{
 			display: block;
 			background: inherit;
@@ -47,7 +47,7 @@ section
 			padding: 0px;
 		}
 
-figure 
+figure 											/*this is like a section tag, but for images and related elements*/
 		{
   			display: block;
 			border: none;
@@ -55,82 +55,58 @@ figure
   			margin: 15px;
 		}
 
-figcaption 
+figcaption 										/*Use this to give images captions*/
 		{
   			background-color: inherit;
  			padding: 2px;
   			text-align: center;
 		}
 
+img											/*Use this to put images into a figure nest*/
+		{									/*These are limited instructions so individual images can be*/
+			max-width: 100%;						/*individually formatted*/
+  			height: auto;
+		}
 
-h1 
- 	{ 
- 		color: black; 
- 		font-size: 32pt; 
- 		font-style: bold; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 
- 	} 
 
-h2
-	{
-		color: black; 
- 		font-size: 24pt; 
- 		font-style: italic; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif; 	
-	}
+h1 											/*Main website heading*/
+ 		{ 
+ 			color: black; 
+ 			font-size: 32pt; 
+ 			font-style: bold; 
+ 			font-family: "Norwester", "Teko", "Arial Black", sans-serif; 
+ 		} 
 
-h3
-	{
-		color: black; 
- 		font-size: 20pt; 
- 		font-style: initial; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
-	}
+h2											/*Sub-page headings*/
+		{
+			color: black; 
+ 			font-size: 24pt; 
+ 			font-style: italic; 
+ 			font-family: "Norwester", "Teko", "Arial Black", sans-serif; 	
+		}
 
-h4	
-	{
-		color: black; 
- 		font-size: 18pt; 
- 		font-style: initial; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
-		padding: 2px;
-		margin: 2px;
-		border: 2px;
-	}
+h3											/*Headings within sub-pages*/
+		{
+			color: black; 
+ 			font-size: 20pt; 
+ 			font-style: initial; 
+ 			font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+		}
 
-h5	
-	{
-		color: black; 
- 		font-size: 14pt; 
- 		font-style: initial; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
-		padding: 2px;
-		margin: 2px;
-		border: 2px;
-	}
 
-h6	
-	{
-		color: transparent; 
- 		font-size: 14pt; 
- 		font-style: initial; 
- 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
-		padding: 2px;
-		margin: 2px;
-		border: 2px;
-	}
 
-p.pclass1
-	{
-		font-family: "Open Sans", sans-serif;
+
+p.pclass1										/*This formats most normal words*/
+	{										/*I've given normal text a class so it doesn't become class 0*/
+		font-family: "Open Sans", sans-serif;					/*That would bug me*/
 		color: black; 
  		font-size: 14pt;
 		padding-left: 5px;
 		padding-right: 5px;
 	}
 
-p.pclass2	
-	{
+p.pclass2										/*This formats words in Norwester that are't headings*/
+	{										/*such as buttons*/
    		color: black;
     		font-size: 20px;
 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
@@ -150,10 +126,10 @@ a:visited
   		 font-size: 14pt;
   	}
 
-a.linkclass1:link 
-	{
-  		color:  #9100ff;
-  		background-color: transparent;
+a.linkclass1:link 									/*This is the format for normal links*/
+	{										/*I've given normal links a class so they doesn't become class 0*/								
+  		color:  #9100ff;							/*That would bug me*/
+  		background-color: transparent;		
   		text-decoration: none;
 	}
 
@@ -169,12 +145,6 @@ a.linkclass1:hover
   		color:  #ff006b;
   		background-color: transparent;
   		text-decoration: none;
-	}
-
-img
-	{
-		max-width: 100%;
-  		height: auto;
 	}
 
 
