@@ -114,6 +114,7 @@ p.pclass2										/*This formats words in Norwester that are't headings*/
 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 		padding: 2px;
 		margin: 2px;
+		text-decoration: none;
 	}
 
 a.linkclass1:link 									/*This is the format for normal links*/
