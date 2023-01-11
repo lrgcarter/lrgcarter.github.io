@@ -30,7 +30,7 @@ body 											/*This is the base layer of the screen*/
 
 footer 											/*This makes the footer happen*/
 		{
-  			position: relative;
+  			position: absolute;
 			width: 100%;
    			top: 50px;
 			bottom: 5px;
