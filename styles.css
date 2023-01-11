@@ -1,39 +1,37 @@
-@font-face 	{
-			font-family: "Norwester"; 
-			src: 	url("https://lrgcarter.github.io/norwester.otf");
+@font-face 	{									/*This tells the website to access and use a font*/
+			font-family: "Norwester"; 					/*This is the font name as will be used in the css and html*/
+			src: 	url("https://lrgcarter.github.io/norwester.otf");	/*This is where the font file lives*/
 		}
 
 
-body 
+body 											/*This is the base layer of the screen*/
 		{
-			font-family: "Open Sans", sans-serif;
-			text-align: center;
-			background: black;
-			margin: 0px;
+			background: black;						/*It's all black, so goth!*/
+			margin: 0px;							/*It goes right up to the edge of the screen*/
 		}
 
 
 
-.mydiv
+.mydiv											/*This makes the white stripe down the middle*/
 		{
 			display: block;
 			background: white;
-			margin-left: 10%;
+			margin-left: 10%;						/*Left and right margins let the black body shoow through*/
 			margin-right: 10%;
-			margin-top: 0px;
+			margin-top: 0px;						/*No top or bottom margin makes white go right to top and boottom of screen*/
 			margin-bottom: 0px;
-			padding-top: 5%;
+			padding-top: 5%;						/*All this padding stops the contents of the stripe buttting up against the margins or screen. Except the footer, screw that guy*/
 			padding-bottom: 1%;
 			padding-left: 5%;
 			padding-right: 5%;
-			min-height: 100vh;
+			min-height: 100vh;						/*This makes the stripe the Height of the Viewport, hence hv. Or vh, because the creator of code was into manga I guess */
 		}
 
 .footer 
 		{
   			position: relative;
   			left: 10%;
-   			bottom: 10%;
+   			right: 10%;
    			top: 50px;
    			background-color: inherit;
    			color: inherit;
@@ -123,6 +121,8 @@ h6
 
 p.pclass1
 	{
+		font-family: "Open Sans", sans-serif;
+		text-align: center;
 		color: black; 
  		font-size: 14pt;
 		padding-left: 5px;
@@ -132,6 +132,7 @@ p.pclass1
 p.pclass2	
 	{
    		color: black;
+		text-align: center;
     		font-size: 20px;
 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 		padding: 2px;
