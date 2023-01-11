@@ -6,6 +6,7 @@
 
 body 											/*This is the base layer of the screen*/
 		{
+			text-align: center;
 			background: black;						/*It's all black, so goth!*/
 			margin: 0px;							/*It goes right up to the edge of the screen*/
 		}
@@ -18,16 +19,16 @@ body 											/*This is the base layer of the screen*/
 			background: white;
 			margin-left: 10%;						/*Left and right margins let the black body shoow through*/
 			margin-right: 10%;
-			margin-top: 0px;						/*No top or bottom margin makes white go right to top and boottom of screen*/
+			margin-top: 0px;						/*No top or bottom margin makes white go to edge of screen*/
 			margin-bottom: 0px;
-			padding-top: 5%;						/*All this padding stops the contents of the stripe buttting up against the margins or screen. Except the footer, screw that guy*/
+			padding-top: 5%;						/*Padding stops the stripe contents buttting up against the margins or edge of screen.*/
 			padding-bottom: 1%;
 			padding-left: 5%;
 			padding-right: 5%;
-			min-height: 100vh;						/*This makes the stripe the Height of the Viewport, hence hv. Or vh, because the creator of code was into manga I guess */
+			min-height: 100vh;						/*This makes the stripe the Height of the Viewport, hence VH*/
 		}
 
-.footer 
+.footer 									
 		{
   			position: relative;
   			left: 10%;
@@ -122,7 +123,6 @@ h6
 p.pclass1
 	{
 		font-family: "Open Sans", sans-serif;
-		text-align: center;
 		color: black; 
  		font-size: 14pt;
 		padding-left: 5px;
@@ -132,7 +132,6 @@ p.pclass1
 p.pclass2	
 	{
    		color: black;
-		text-align: center;
     		font-size: 20px;
 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 		padding: 2px;
