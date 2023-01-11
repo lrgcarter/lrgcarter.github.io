@@ -123,6 +123,7 @@ a.linkclass1:link 									/*This is the format for normal links*/
 		color:  #9100ff;							/*That would bug me*/
   		background-color: transparent;		
   		text-decoration: none;
+		font-size: 14pt;
 	}
 
 a.linkclass1:hover 
@@ -137,6 +138,17 @@ a.linkclass1:hover
   		color:  #ff006b;
   		background-color: transparent;
   		text-decoration: none;
+	}
+
+a.linkclass2
+	{
+		text-decoration: none;
+		color: black;
+    		font-size: 20px;
+		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+		padding: 2px;
+		margin: 2px;
+		text-decoration: none;
 	}
 
 
@@ -200,7 +212,10 @@ a.linkclass1:hover
 			{
   				margin: 10px;
 			}
-		
+		a.linkclass2
+			{
+				font-size: 18px;
+			}	
 	
 	}
 		
