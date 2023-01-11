@@ -181,7 +181,7 @@ a.linkclass1:hover
 			}
 		
 
-		p.class1
+		p.pclass1
 			{
  				font-size: 12pt;
 			}
@@ -194,7 +194,6 @@ a.linkclass1:hover
 		img											
 			{									
 				max-width: 80%;						
-  				height: auto;
 			}
 		
 		figure 											
