@@ -103,6 +103,7 @@ p.pclass1										/*This formats most normal words*/
  		font-size: 14pt;
 		padding-left: 5px;
 		padding-right: 5px;
+		
 	}
 
 p.pclass2										/*This formats words in Norwester that are't headings*/
@@ -160,9 +161,15 @@ a.linkclass3
   		align-content: center;
 	}
 
-ul 	{
+ul 	
+	{
   		list-style-type: none;
 		padding: 5px;
+	}
+
+ul li
+	{
+		bottom-padding: 5px;
 	}
 
 @media only screen and (max-width: 900px) 
