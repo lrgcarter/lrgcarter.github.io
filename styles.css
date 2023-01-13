@@ -161,6 +161,7 @@ a.linkclass3
 
 ul 	{
   		list-style-type: none;
+		padding: 5px;
 	}
 
 @media only screen and (max-width: 900px) 
