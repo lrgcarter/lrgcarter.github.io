@@ -121,6 +121,7 @@ a.linkclass1:link 									/*This is the format for normal links*/
   		background-color: transparent;		
   		text-decoration: none;
 		font-size: 14pt;
+		font-family: "Open Sans", sans-serif;
 	}
 
 a.linkclass1:hover 
