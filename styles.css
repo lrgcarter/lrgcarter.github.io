@@ -145,6 +145,10 @@ a.linkclass2
 		font-family: "Norwester", "Teko", "Arial Black", sans-serif;
 		padding: 2px;
 		margin: 2px;
+	}
+
+a.linkclass3
+	{
 		text-decoration: none;
 	}
 
