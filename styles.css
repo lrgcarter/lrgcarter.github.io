@@ -169,7 +169,7 @@ ul
 
 ul li
 	{
-		bottom-padding: 5px;
+		padding-bottom: 5px;
 	}
 
 @media only screen and (max-width: 900px) 
