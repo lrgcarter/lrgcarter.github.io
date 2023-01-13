@@ -159,8 +159,10 @@ a.linkclass3
   		align-content: center;
 	}
 
-
-
+ul 	{
+  		list-style-type: none;
+  		margin: 5px;
+	}
 
 @media only screen and (max-width: 900px) 
 
