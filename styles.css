@@ -49,7 +49,6 @@ figure 											/*this is like a section tag, but for images and related eleme
   			display: block;
 			border: none;
   			width: auto;
-  			margin: 15px;
 		}
 
 figcaption 										/*Use this to give images captions*/
