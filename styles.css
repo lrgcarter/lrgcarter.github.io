@@ -193,6 +193,7 @@ ul li
   		bottom: 150%;
   		left: 50%;
   		margin-left: -60px;
+		font-family: "Open Sans", sans-serif;
 	}
 
 .tooltip .tooltiptext::after 
