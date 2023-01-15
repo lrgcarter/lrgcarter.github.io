@@ -122,6 +122,15 @@ a.linkclass1:hover
 		margin-left: 0;
 		margin-right: 0;
 	}
+
+a.linkclass1:focus
+	{
+  		color: #ff00ec;
+  		background-color: transparent;
+  		text-decoration: underline;
+		margin-left: 0;
+		margin-right: 0;
+	}
 			
  a.linkclass1:visited 
   	{
