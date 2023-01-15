@@ -156,45 +156,31 @@ a.box:focus
          </div>	
 
         <figure>
-	          <a href=""01-02-01-ufohno-preview.jpg"" class="box">
+	          <a href=""https://lrgcarter.github.io/01-02-01-ufohno.html" class="box">
       	     <img src="https://lrgcarter.github.io/01-02-01-ufohnopreview.jpg">
+  		      </a> 
+        </figure>
+  
+      </article> 
+      
+      <article>
+        <div class="container">
+
+          <h3>The Lepidopterist</h3>
+
+            <p class="pclass1">This one's about butterflies.</p>
+            
+         </div>	
+
+        <figure>
+	          <a href=""https://lrgcarter.github.io/01-01-01-Lepidoptorist.html"" class="box">
+      	     <img src="01-01-00-lepidopteristpreview.jpg">
   		      </a> 
         </figure>
   
       </article> 
 				
 			
-			
-			</article>
-				
-				
-				<a name="lepidopterist"></a>
-							
-						<div class="grid-container">
-
-  							<div class="item1">
-
-									<h3>The Lepidopterist</h3>
-	
-									<p class="pclass1">This one's about butterflies.</p>
-									
-								
-							</div>
-	
-							<div class="item2">
-								
-								<a href="https://lrgcarter.github.io/01-01-01-Lepidoptorist.html">
-
-									<img src="01-01-00-lepidopteristpreview.jpg" 
-									alt="Two para-troopers in a aircraft." 
-									>
-		
-								</a>
-							</div>
-
-						</div>
-			</article>
-
 		
  		</main>
 	
