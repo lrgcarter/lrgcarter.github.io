@@ -23,47 +23,62 @@
 	
 	 <style>
 		.grid-container 
-				{
- 					grid-template-columns: 100%;
-					align-content: center;
- 	
-				}
-		
-		.btn 
-		  		{
-  					border: none;
-  					background-color: inherit;
-  					padding: 14px 28px;
-  					display: inline-block;
-					place-self: center;
-				}
+		 	{
+  				display: grid;
+  				height: auto;
+  				grid-template-columns: 7.5% 20% 20% 20% 20% 7.5%;
+  				background-color: transparent;
+  				gap: 1%;
+  				padding: 5px;
+  				margin-left: 5%;
+  				margin-right: 5%;
+			}
 
-		.btn:hover {background: transparent;}
-		.filler {color: transparent;}
-		.text {color: black;}
-		  
-		@media only screen and (max-width: 900px)
-			
-				{	
+		.itempage
+			{
+				color:  black;
+				background-color: transparent;
+				text-align: center;
+  				font-size: 30px;
+			}
 
-				h5	
+		.apage
+			{
+				color: #9100ff;
+				text-decoration: none;
+			}
+
+		.apage:hover
+			{
+				color: #ff00ec;
+				text-decoration: none;
+				background-color: #f4e6ff;
+				padding: 10px;
+			}
+
+		@media only screen and (max-width: 900px) 
+				
+			{	
+
+
+				.itempage
 					{
-						font-size: 12pt; 
-		
+						background-color: transparent;
+						text-align: center;
+  						font-size: 20px;
 					}
-		
-				h6	
+
+				.apage:hover
 					{
-						font-size: 12pt; 
-		
+						color: #ff00ec;
+						text-decoration: none;
+						background-color: #f4e6ff;
+						padding: 5px;
 					}
-				.btn 	
-					{
-  		
-  						padding: 14px 10px;
-  
-					}
-		  		}
+				
+		  	}
+
+
 			
 	</style>
 </head>
@@ -96,59 +111,40 @@
   				<h3>The Lepidopterist</h3>
 		
 			</section>
-				
-			<div class="grid-container">
+			
+			<nav>
 
-  			<div class="item1">
-		
-				<button class="btn filler"><h6>Fill<br>Text</h6></button>
-				<button class="btn filler"><h6>Fill<br>Text</h6></button>
-					<button class="btn text"><h5>Page<br>1</h5></button>
-				<button class="btn text"><a href="01-01-02-Lepidoptorist.html" class="linkclass3"><h5>Next<br>Page</h5></a></button>
-				<button class="btn text"><a href="01-01-04-Lepidoptorist.html" class="linkclass3"><h5>Last<br>Page</h5></a></button>
-		
-			</div>
-	 
-			<div class="item2">
-		
-				<img src="01-01-01-Lepidoptorist.jpg" 
-				alt=
-			     	"	Page 1.
-                    			Panel 1.
-                      			The hold of a military transport aircraft. The troops are wearing wingsuits. The go-light is red.
-                      			Captions: My name is Li Jing. I hunt butterflies.
-                      			Panel 2.
-                      			The go-light goes green. The troops start jumping from the aircraft.
-                      			Captions: I know what you’re thinking. “From a plane?”
-                      			Panel 3.
-                      			The light turns red again. The troops have left the aircraft to begin their mission.
-                      			Captions: “What are they -- giant, genetically engineered, monster butterflies?” To which I reply… 
-                     			Panel 4.
-                      			The troops soar over the clouds towards a swarm of giant, genetically engineered, monster butterflies.
-                      			Captions: Yeah, pretty much. You see, America owes a lot of countries a lot of money, mine included. And someone told their president that thing about butterfly wings causing storms in China.
-                      			Panel 5.
-                      			Some of the troops die as legs/antenna/proboscis lash out. Li Jing weaves between these towards one of the butterflies. 
-                      			Captions: So they said, “why stop there?” “Why not make butterflies that tear the very fabric of space-time?”
-                      			Panel 6.
-                      			Li Jing stands atop the head of the butterfly, her electro-scalpel held high.
-                      			Captions: On the plus side, our cities no longer have that whole smog problem... But only because it’s been sucked though the hole that is now our sky.
-                     		"
-		     		width="960"
-				>
-			</div>	
-			
-			<div class="item3">
+				<div class="grid-container">
+					<div class="itempage"></div>
+  					<div class="itempage"><a href="01-01-01-Lepidoptorist.html" class="apage">Page 1</a></div>
+  					<div class="itempage"><a href="01-01-02-Lepidoptorist.html" class="apage">Page 2</a></div>  
+  					<div class="itempage"><a href="01-01-03-Lepidoptorist.html" class="apage">Page 3</a></div>
+ 					<div class="itempage"><a href="01-01-04-Lepidoptorist.html" class="apage">Page 4</a></div>
+  					<div class="itempage"><a href="01-01-04-Lepidoptorist.html" class="apage">&#10145</a></div>  
+				</div>
 				
-				<button class="btn filler"><h6>Fill<br>Text</h6></button>
-				<button class="btn filler"><h6>Fill<br>Text</h6></button>
-				<button class="btn text"><h5>Page<br>1</h5></button>
-				<button class="btn text"><a href="01-01-02-Lepidoptorist.html" class="linkclass3"><h5>Next<br>Page</h5></a></button>
-				<button class="btn text"><a href="01-01-04-Lepidoptorist.html" class="linkclass3"><h5>Last<br>Page</h5></a></button>
-			
-			</div>
-			
-			</div>
+			</nav>
+				
+			<article>	
+
 		
+				<img src="01-01-01-Lepidoptorist.jpg" alt="The Lepidopterist, page one." width="80%">
+				
+			</article>
+			
+			<nav>
+
+				<div class="grid-container">
+					<div class="itempage"></div>
+  					<div class="itempage"><a href="01-01-01-Lepidoptorist.html" class="apage">Page 1</a></div>
+  					<div class="itempage"><a href="01-01-02-Lepidoptorist.html" class="apage">Page 2</a></div>  
+  					<div class="itempage"><a href="01-01-03-Lepidoptorist.html" class="apage">Page 3</a></div>
+  					<div class="itempage"><a href="01-01-04-Lepidoptorist.html" class="apage">Page 4</a></div>
+  					<div class="itempage"><a href="01-01-04-Lepidoptorist.html" class="apage">&#10145</a></div>  
+				</div>
+				
+			</nav>
+					
 			</main>		
  		
 			<footer>
