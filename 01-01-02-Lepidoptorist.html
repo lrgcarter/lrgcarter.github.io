@@ -22,49 +22,71 @@
 		<link rel="stylesheet" type="text/css" href="styles.css">
 	
 	<style>
+		 img
+		 	{
+		 		margin: 0;
+		 	}
+		 
 		.grid-container 
-				{
- 					grid-template-columns: 100%;
-					align-content: center;
- 	
-				}
-		
-		.btn 
-				{
-  					border: none;
-  					background-color: inherit;
-  					padding: 14px 28px;
-  					display: inline-block;
-					place-self: center;
-				}
+		 	{
+  				display: grid;
+  				height: auto;
+  				grid-template-columns: 7.5% 20% 20% 20% 20% 7.5%;
+  				background-color: transparent;
+  				gap: 1%;
+  				padding: 5px;
+  				margin: 5%;
+  				
+			}
 
-		.btn:hover {background: transparent;}
-		.filler {color: transparent;}
-		.text {color: black;}
-		  
+		.itempage
+			{
+				color:  black;
+				background-color: transparent;
+				text-align: center;
+  				font-size: 30px;
+				font-family: "Norwester", "Teko", "Arial Black", sans-serif;
+			}
+
+		.apage
+			{
+				color: #9100ff;
+				text-decoration: none;
+			}
+
+		.apage:hover
+			{
+				color: #ff00ec;
+				text-decoration: none;
+				background-color: #f4e6ff;
+				padding: 10px;
+			}
+
 		@media only screen and (max-width: 900px) 
-				{	
+				
+			{	
 
-				h5	
-					{
-						font-size: 12pt; 
-		
-					}
-		
-				h6	
-					{
-						font-size: 12pt; 
-		
-					}
-				.btn 	
-					{
-  		
-  						padding: 14px 10px;
-  
-					}
-		  		}
 
-		</style>
+				.itempage
+					{
+						background-color: transparent;
+						text-align: center;
+  						font-size: 20px;
+					}
+
+				.apage:hover
+					{
+						color: #ff00ec;
+						text-decoration: none;
+						background-color: #f4e6ff;
+						padding: 5px;
+					}
+				
+		  	}
+
+
+			
+	</style>
 	
   
 </head>
@@ -97,20 +119,23 @@
   				<h3>The Lepidopterist</h3>
 		
 			</section>
-		
-		<div class="grid-container">
+			
+			<nav>
 
-  			<div class="item1">
-	
-				<button class="btn text"><a href="01-01-01-Lepidoptorist.html" class="linkclass3"><h5>First<br>Page</h5></a></button>
-				<button class="btn text"><a href="01-01-01-Lepidoptorist.html" class="linkclass3"><h5>Prev<br>Page</h5></a></button>
-  				<button class="btn text"><h5>Page<br>2</h5></button>
-  				<button class="btn text"><a href="01-01-03-Lepidoptorist.html" class="linkclass3"><h5>Next<br>Page</h5></a></button>
-  				<button class="btn text"><a href="01-01-04-Lepidoptorist.html" class="linkclass3"><h5>Last<br>Page</h5></a></button> 
-		
-			</div>
-	 
-			<div class="item2">
+				<div class="grid-container">
+					<div class="itempage"><a href="01-01-01-Lepidoptorist.html" class="apage">&#11013</a></div>
+  					<div class="itempage"><a href="01-01-01-Lepidoptorist.html" class="apage">Page 1</a></div>
+  					<div class="itempage">Page 2</div>  
+  					<div class="itempage"><a href="01-01-03-Lepidoptorist.html" class="apage">Page 3</a></div>
+ 					<div class="itempage"><a href="01-01-04-Lepidoptorist.html" class="apage">Page 4</a></div>
+  					<div class="itempage"><a href="01-01-03-Lepidoptorist.html" class="apage">&#10145</a></div>  
+				</div>
+				
+			</nav>
+				
+			<article>
+				
+				<figure>
 			
 				<img src="01-01-02-Lepidoptorist.jpg" 
 				alt=" 
@@ -134,23 +159,24 @@
           				Li Jing is swinging through the air again, as the buterfly’s body opens up to reveal a new head.
           				Caption: Hiding the real one beneath an unfolding thorax is a more recent mutation."
 
-		     			width="960"
-				>
+		     			width="100%">
+				
+				</figure>
+				
+			</article>
 		
-			</div>	
-			
-			<div class="item3">
-			
-				<button class="btn text"><a href="01-01-01-Lepidoptorist.html" class="linkclass3"><h5>First<br>Page</h5></a></button>
-				<button class="btn text"><a href="01-01-01-Lepidoptorist.html" class="linkclass3"><h5>Prev<br>Page</h5></a></button>
-  				<button class="btn text"><h5>Page<br>2</h5></button>
-  				<button class="btn text"><a href="01-01-03-Lepidoptorist.html" class="linkclass3"><h5>Next<br>Page</h5></a></button>
-  				<button class="btn text"><a href="01-01-04-Lepidoptorist.html" class="linkclass3"><h5>Last<br>Page</h5></a></button> 
-		
-			</div>
-		</div>
-		
- 		<a href="#top">
+			<nav>
+
+				<div class="grid-container">
+					<div class="itempage"><a href="01-01-01-Lepidoptorist.html" class="apage">&#11013</a></div>
+  					<div class="itempage"><a href="01-01-01-Lepidoptorist.html" class="apage">Page 1</a></div>
+  					<div class="itempage">Page 2</div>  
+  					<div class="itempage"><a href="01-01-03-Lepidoptorist.html" class="apage">Page 3</a></div>
+ 					<div class="itempage"><a href="01-01-04-Lepidoptorist.html" class="apage">Page 4</a></div>
+  					<div class="itempage"><a href="01-01-03-Lepidoptorist.html" class="apage">&#10145</a></div>  
+				</div>
+				
+			</nav>
 
 		</main>		
  		
