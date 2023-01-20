@@ -13,34 +13,76 @@
 
 			.grid-container 
 				{
- 					 grid-template-columns: 10% 80% 10%;
+ 					grid-template-columns: 10% 80% 10%;
 					align-content: center;
+					color:  black;
+					background-color: transparent;
+					text-align: center;
+  					font-size: 30px;
+					font-family: "Norwester", "Teko", "Arial Black", sans-serif;
  	
 				}
 			.item1 
 				{
- 				 	
-					padding-top: 100px;
-					padding: 0px;
-					margin: 0px;
-					border: 0px;
+					padding: 0;
+					margin: 0;
+					border: 0;
+					position: relative;
+                    			top: 40%;
+                  
 				}
 
 			.item2
 				{
 					
-					padding: 0px;
-					margin: 0px;
-					border: 0px;
+					padding: 0;
+					margin: 0;
+					border: 0;
 				}
 
 			.item3
 				{
-					padding-top: 100px;
-					padding: 0px;
-					margin: 0px;
-					border: 0px;
+					padding: 0;
+					margin: 0;
+					border: 0;
+					position: relative;
+                    			top: 40%;
 				}
+			
+			.apage
+				{
+					color: #9100ff;
+					text-decoration: none;
+				}
+		
+			.apage:hover
+				{
+					color: #ff00ec;
+					text-decoration: none;
+					background-color: #f4e6ff;
+					padding: 10px;
+				}
+			
+			
+			 @media only screen and (max-width: 900px) 
+
+				{
+					
+					.grid-container 
+						{ 
+							text-align: center;
+ 							grid-template-columns: 100%;
+							font-size: 15px;
+						}
+                        
+                 		
+					.item1 
+						{
+ 				 	
+							padding-bottom: 20px;
+						}
+				}
+			
 		</style>
 
 </head> 
@@ -79,12 +121,9 @@
 
   					<div class="item1">
 
-						<a href="02-04-00-sea-person.html">
+						<a href="02-04-00-sea-person.html" class="apage">
 
-							<img src="02-00-01-previous.jpg" 
-							alt="Previous" 
-							height="20%" 
-							width="20%">
+							&larr;
 
 						</a>
 
@@ -115,12 +154,9 @@
 	
  					<div class="item3">
 	
-						<a href="02-02-00-goblin.html">
+						<a href="02-02-00-goblin.html" class="apage">
 
-							<img src="02-00-02-next.jpg" 
-							alt="Next" 
-							height="20%" 
-							width="20%">
+							&rarr;
 
 						</a>
 
