@@ -114,15 +114,6 @@ a.linkclass1:link 									/*This is the format for normal links*/
 		font-family: "Open Sans", sans-serif;
 	}
 
-a.linkclass1:visited 
-  	{
-  		color:  #ff006b;
-  		background-color: transparent;
-  		text-decoration: none;
-		margin-left: 0;
-		margin-right: 0;
-	}
-
 a.linkclass1:hover 
 	{
   		color: #ff00ec;
