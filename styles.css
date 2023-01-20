@@ -25,6 +25,7 @@ body 											/*This is the base layer of the screen*/
 			padding-bottom: 1%;						/*gainst the margins or edge of screen.*/
 			padding-left: 5%;
 			padding-right: 5%;
+			max-widtgh: 1130px;
 			min-height: 100vh;						/*This makes the stripe the Height of the Viewport, hence VH*/
 		}
 
