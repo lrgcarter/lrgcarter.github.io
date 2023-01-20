@@ -16,6 +16,7 @@ body 											/*This is the base layer of the screen*/
 .mydiv											/*This makes the white stripe down the middle*/
 		{
 			display: block;
+			text-align: center;
 			background: white;
 			margin-left: 10%;						/*Left and right margins let the black body shoow through*/
 			margin-right: 10%;
