@@ -1,0 +1,438 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head>
+	
+	<title>L R G Carter Shop</title>
+	
+		<meta charset="UTF-8">
+		<meta name="description" content="Links to L R G Carter's wonderful wares">
+		<meta name="author" content="L R G Carter">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<meta property="og:title" content="Showcase of L R G Carter's wonderful wares" />
+		<meta property="og:url" content="https://lrgcarter.github.io/04-00-shop-index.html" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="A selection of tat with my art slapped on it. All for the low low price of money!" />
+		<meta property="og:image" content="http://lrgcarter.github.io/ogredbubblepreviewimage.jpg" />
+
+		<link rel="stylesheet" type="text/css" href="styles.css">
+
+		<style>
+
+			img
+				{
+					min-width: 250px;
+					width: 80%;
+				}
+
+			.grid-container 
+
+				{
+ 					grid-template-columns: 45% 55%;
+					grid-column-gap: 20px;
+					max-width: 80%;
+					max-width: 1000px;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			.item1 
+        {
+					padding-top: 40px;	
+					padding-bottom: 40px;				
+				}
+				
+			.item2
+				{
+					padding-top: 25px;
+					padding-right: 5%;
+					padding-left: 5%;
+					padding-bottom: 40px;	
+					text-align: center;				
+				}
+			
+			@media only screen and (max-width: 1000px) 
+
+				{
+					img
+						{
+							min-width: 250px;
+							width: 30%;
+						}
+
+					.grid-container 
+
+						{
+ 							grid-template-columns: 100%;
+							grid-column-gap: 5px;
+						}
+					
+					.item1 
+
+						{
+							padding-top: 5px;	
+							padding-right: 5px;	
+							padding-left: 5px;		
+						}
+
+					.item2
+            
+            {
+							padding-top: 40px;
+							padding-left: 5px;
+							padding-right: 5px;
+							padding-bottom: 5px;				
+						}
+				}
+			
+			
+		</style>
+</head> 
+
+<body>
+	
+<a name="top"></a>
+	
+	<div class="mydiv">
+	
+		<header>
+
+				<a href="index.html" class="linkclass3">
+
+					<h1>L. R. G. Carter</h1>
+					
+				</a>	
+			
+		</header>
+		
+		</main>
+
+			<section>
+		
+				<H2>Shop</H2>
+
+					<p class="pclass1">Here's some designs I've put on some products. The links take you to Redbubble.</p>
+		
+			</section>
+
+      <section>
+		
+				<H3>Niche Jokes for Nerdy Folks</H3>
+
+					<p class="pclass1">Silly pictures centred around silly jokes about silly cartoons.</p>
+		
+			</section>	
+				
+			<article>
+		
+				<a name="Mega Tron"></a>
+	
+					<div class="grid-container">
+
+            <div class="item1">
+							
+							<figure>
+							
+								<img src="04-01-01-mega-tron.jpg" 
+								alt="Thumbnail showing a parody of the poster for Tron (1982). The characters have been replaced with the Transformers Megatron and Starscream. The word Megatron is written in the font used on the original poster.">
+								
+							</figure>	
+
+						</div>	
+
+  						<div class="item2">
+							
+							<h4>Mega Tron</h4>
+
+								<p class="pclass1">The poster to 1982's Tron, now with added Tron! Megatron, that is! </p>
+
+								<ul>	
+							
+									<li>
+										<div class="tooltip">
+											<a href="https://www.redbubble.com/shop/ap/178191957" class="linkclass1" target="_blank">
+												Click here for a full list of products featuring this design.
+											</a>
+										<span class="tooltiptext">This link opens this design's Redbubble page in a new tab.</span>
+										</div>
+									</li>
+
+								</ul>	
+						</div>
+
+					</div>
+			</article>
+	
+		
+      </section>
+
+    
+      <section>
+		
+				<H3>Shanks Family Chronicles</H3>
+
+					<p class="pclass1">Art from the critically criticised series!</p>
+		
+			</section>	
+				
+			<article>
+		
+				<a name="shanks-family-curse"></a>
+	
+					<div class="grid-container">
+
+  						<div class="item1">
+							
+							<h4>Mega Tron</h4>
+
+								<p class="pclass1">When Armitage watches his parents fall foul of an ancient family curse, it leaves him somewhat out of sorts. His new guardians are retired pirates, so their solution to every problem is high adventure on the seven seas. They’re soon dragging Armitage over the waves to face whatever the ocean can throw at them. Armitage needs to hurry up and convince them that his depression calls for more than just fresh air and exercise. Otherwise it’s only a matter of time before the Shanks Family Curse strikes again...</p>
+
+								<ul>	
+							
+									<li>
+										<div class="tooltip">
+											<a href="shanks-family-curse_lrgcarter.pdf" class="linkclass1" target="_blank">
+												Click here for a PDF.
+											</a>
+										<span class="tooltiptext">This link either opens the PDF in a new tab or downloads it, depending on the settings at your end.</span>
+										</div>
+									</li>
+									
+									<li>
+										<div class="tooltip">
+											<a href="shanks-family-curse_lrgcarter.epub" class="linkclass1" target="_blank">
+												Click here for an EPUB.
+											</a>
+										<span class="tooltiptext">This link downloads an EPUB file.</span>
+										</div>
+									</li>
+									
+									<li>	
+										<div class="tooltip">
+											<a href="shanks-family-curse_lrgcarter.mobi" class="linkclass1" target="_blank">
+												Click here for a MOBI.
+											</a>
+										<span class="tooltiptext">This link downloads a MOBI file.</span>
+										</div>
+									</li>
+									
+								</ul>	
+						</div>
+							
+	
+						<div class="item2">
+							
+							<figure>
+							
+								<img src="03-01-01-shanks-family-curse-cover.jpg" 
+								alt="Thumbnail of the cover of Shanks Family Curse, showing a gobin sat on a rock amid a misty sea. There is a seagull on his head.">
+								
+							</figure>	
+
+						</div>	
+
+					</div>
+			</article>
+	
+			<article>
+		
+				<a name="what-urbi-did-next"></a>
+		
+					<div class="grid-container">
+
+  						<div class="item1">
+							
+							<h3>What Urbi Did Next</h3>
+
+								<p class="pclass1">The events of Shanks Family Curse left Urbi Hotep with a couple of unresolved issues.</p>
+
+								<p class="pclass1">Most pressingly, she still needs to vanquish the invaders that long ago conquered her home. The invaders that enslaved her people and fed them to carnivorous fish-things. The invaders that are nearing the end of their plans for total world domination.</p>
+
+								<p class="pclass1">What Urbi Did Next is a short follow-up tale to Shanks Family Curse.</p>
+							
+								<ul>	
+							
+									<li>
+										<div class="tooltip">
+											<a href="what-urbi-did-next_lrgcarter.pdf" class="linkclass1" target="_blank">
+												Click here for a PDF.
+											</a>
+										<span class="tooltiptext">This link either opens the PDF in a new tab or downloads it, depending on the settings at your end.</span>
+										</div>
+									</li>
+									
+									<li>
+										<div class="tooltip">
+											<a href="what-urbi-did-next_lrgcarter.epub" class="linkclass1" target="_blank">
+												Click here for an EPUB.
+											</a>
+										<span class="tooltiptext">This link downloads an EPUB file.</span>
+										</div>
+									</li>
+									
+									<li>	
+										<div class="tooltip">
+											<a href="what-urbi-did-next_lrgcarter.mobi" class="linkclass1" target="_blank">
+												Click here for a MOBI.
+											</a>
+										<span class="tooltiptext">This link downloads a MOBI file.</span>
+										</div>
+									</li>
+									
+								</ul>		
+							
+						</div>
+							
+	
+						<div class="item2">
+							
+							<figure>
+								<img src="03-02-01-what-urbi-did-next-cover.jpg" 
+								alt="Thumbnail of the cover of What Urbi Did Next, showing a Sea People enforcer riding some sort of hideous fish monster.">
+							</figure>	
+
+						</div>
+
+					</div>
+
+			</article>
+				
+			<article>
+	
+				<a name="shanks-family-legacy"></a>	
+				
+					<div class="grid-container">
+
+  						<div class="item1">
+							
+							<h3>Shanks Family Legacy</h3>
+
+								<p class="pclass1">Armitage is not having the best of times. Fresh from watching his family die, he's now having to spend the weekend in a haunted house!</p>
+
+								<p class="pclass1">On the one hand, survival could win him a share of his family inheritance. On the other, bodies are starting to pile up, and Armitage suffers the extra vulnerability of that whole family curse thing.</p>
+								
+								<p class="pclass1">Still, inherited wealth makes the pain of life worth suffering, right?</p>
+
+								<p class="pclass1">Shanks Family Legacy is the long awaited sequel to Shanks Family Curse!</p>
+								
+								
+								<ul>	
+							
+									<li>
+										<div class="tooltip">
+											<a href="shanks-family-legacy_lrgcarter.pdf" class="linkclass1" target="_blank">
+												Click here for a PDF.
+											</a>
+										<span class="tooltiptext">This link either opens the PDF in a new tab or downloads it, depending on the settings at your end.</span>
+										</div>
+									</li>
+									
+									<li>
+										<div class="tooltip">
+											<a href="shanks-family-legacy_lrgcarter.epub" class="linkclass1" target="_blank">
+												Click here for an EPUB.
+											</a>
+										<span class="tooltiptext">This link downloads an EPUB file.</span>
+										</div>
+									</li>
+									
+									<li>							
+										<div class="tooltip">
+											<a href="shanks-family-legacy_lrgcarter.mobi" class="linkclass1" target="_blank">
+												Click here for a MOBI.
+											</a>
+										<span class="tooltiptext">This link downloads a MOBI file.</span>
+										</div>
+									</li>
+									
+								</ul>
+							
+						</div>
+	
+						<div class="item2">
+							
+							<figure>
+								<img src="03-03-01-shanks-family-legacy-cover.jpg" 
+								alt="Thumbnail of the cover of Shanks Family Legacy, showing a dissected rat-like thing with its innards arranged in an educational display. The rat-like thing looks happy about this situation.">
+							</figure>
+
+						</div>
+					
+					</div>
+			</article>
+      </section>
+	
+		</main>
+	
+		<footer>
+
+			<p class="pclass1">If you've enjoyed yourself here, why not make a donation?</p>	 	
+			
+				<ul>
+				
+  					<li>
+						<div class="tooltip">
+							<a href="https://www.paypal.com/paypalme/lrgcarter" class="linkclass1" target="_blank">
+							
+								Here's a link for Paypal.
+									
+							</a>
+						<span class="tooltiptext">Link to Paypal opens in new tab</span>
+						</div>
+					</li>
+ 				
+					<li>
+						<div class="tooltip">
+							<a href="https://ko-fi.com/lrgcarter" class="linkclass1" target="_blank">
+								Here's a link for Ko-Fi.
+							</a>
+						<span class="tooltiptext">Link to Ko-fi opens in new tab</span>
+						</div>
+					</li>
+
+					<li>
+						<div class="tooltip">
+							<a href="https://www.patreon.com/LRGCarter" class="linkclass1" target="_blank">
+							
+								Here's a link for Patreon.
+									
+							</a>
+						<span class="tooltiptext">Link opens Patreon in a new tab</span>
+						</div>
+					</li>
+			
+				</ul> 
+				
+	
+			<p class="pclass1">For those of us who have no money, I also appreciate kind words.</p>
+			
+				<div class="tooltip">
+					<a href="https://lrgcarter.tumblr.com/" class="linkclass1" target="_blank"">
+						I can be complimented and otherwise contacted on tumblr.
+					</a>
+				<span class="tooltiptext">Link to tumblr opens in new tab</span>
+				</div> 
+			
+	
+				<ul style="padding-top:30px">
+					<li>
+						<a href="#top" class="linkclass2">
+							Back to top
+						</a>
+					</li>
+				
+					<li>
+
+						<a href="index.html" class="linkclass2">
+							Back to homepage
+						</a>
+					</li>
+				</ul>	
+		
+		</footer>	
+		
+	</div>
+
+</body>
+
+</html> 
